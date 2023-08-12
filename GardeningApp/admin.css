@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+background: linear-gradient(to top, rgba(248, 248, 248, 0)25%, rgba(248, 248, 248, 0)25%),url(test1.jpg);
+background-position:center;
+background-size: cover;
+height: 109vh;
+}
+.logo{
+    color: #008000;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    margin-left:2%;
+   margin-top:2%;
+}
+.logo img{
+    width: 50%;
+    display:flex;
+}
+ul{
+    margin-right:3%;
+}
+ul li{
+    float:right;
+    display: flex;
+    list-style: none;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    font-size: 150%;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: green;
+}
+.container{
+    width: 60%;
+    margin: 0px auto;
+    text-align:center;
+  
+}
+.text{
+    background: rgba(165, 215, 77,0.50);
+    flex-basis:60%;
+    padding: 40px 60px;
+}
+.poza{
+        color:rgb(103, 71, 4);
+}
+.nrpuncte{
+    color:rgb(103, 71, 4);
+    font-size:200%;
+   
+   }
+.nrpuncte a{
+    color:black;
+}
+.poza img{
+    object-fit:contain;
+    height:270px;
+    width:200px;
+    border-radius:1%;
+}
+.changepass{
+    font-size:200%;
+    color:black;
+    margin-top:2%;
+}
+.changepass a{
+    color:black;
+}
