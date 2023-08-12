@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background: linear-gradient(to top, rgba(248, 248, 248, 0)25%, rgba(248, 248, 248, 0)25%),url(poza3.jpg);
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 109vh;
+}
+.logo{
+    color: #008000;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    margin-left:2%;
+   margin-top:2%;
+}
+.logo img{
+    width: 50%;
+    display:flex;
+}
+.int h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul{
+    margin-right:3%;
+}
+ul li{
+    float:right;
+    display: flex;
+    list-style: none;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    font-size: 150%;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: green;
+}
+.content{
+    display:flex;
+    width: 100%;
+    height: auto;
+    color: white;
+  float:left;
+margin-left: 5% ;
+}
+.content .par{
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 150%;
+}
+.content h1{
+    font-family: "Times New Roman";
+    font-size: 500%;
+    padding-left: 2%;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.form{
+    display: flex;
+    width: 30%;
+    height: 30%;
+    float:center;
+    background: #fff;
+    margin-left:35%;
+}

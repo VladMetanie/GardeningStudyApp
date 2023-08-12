@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: "Poppins",sans-serif;
+}
+body{
+    background: linear-gradient(to top, rgba(248, 248, 248, 0)25%, rgba(248, 248, 248, 0)25%),url(test1.jpg);   
+    background-position:center;
+    background-size: cover;
+    height: 109vh;
+    }
+h1{
+    text-align:center;
+    font-size:50px;
+}
+h2{
+    text-align:center;
+    font-size:25px;
+}
+.container{
+    text-align:center;
+    margin:auto;
+    width:75%;
+}
+#quiz input {
+    vertical-align: middle;
+}
+#quiz ol {
+    list-style: none;
+}
+ 
+
+
+#quiz ol li {
+   margin-bottom:2%;
+}
+ 
+#quiz ol li div {
+   padding: 0.5% 0;
+}
+ 
+#quiz h3 {
+   font-size: 20px; margin: 0 0 1px 0; color: black;
+}
+ 
+#results {
+    font: 44px Georgia, Serif;
+}
+.submitbtn{
+    margin-bottom: 0%;
+    width:10%;
+    height:7%;
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background: linear-gradient(to top, rgba(248, 248, 248, 0)25%, rgba(248, 248, 248, 0)25%),url(poza3.jpg);
+background-position:center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 109vh;
+}
+.logo{
+    color: #008000;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    margin-left:2%;
+   margin-top:2%;
+}
+.logo img{
+    width: 50%;
+    display:flex;
+}
+ul{
+    margin-right:3%;
+}
+ul li{
+    float:right;
+    display: flex;
+    list-style: none;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    font-size: 150%;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: green;
+}
+.container{
+    margin-top:5%;
+}
+.container header {
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+    display: flex;
+
+}
+
+.container header h1 {
+    display: flex;
+    position: absolute;
+    margin-right:20%;
+    margin-top:-5%;
+	font-size: 220%;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+	line-height: 50%;
+	margin: 0 auto;
+	padding: 2% 0 3%;
+	width: 75%;
+	max-width: 200vh;
+    max-height: 60vh;
+	overflow-y: scroll;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: rgba(84, 59, 35,0.90);
+    margin-bottom:5%;
+}
+th {
+    position: sticky;
+    background-color: #A5D74D;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 3% 5%;
+    text-align: left;
+}
+tbody th {
+	background-color: #A5D74D;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(3, 109, 3, 0.3);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    }
+    .form .input{
+        font-family: "Roboto", sans-serif;
+        outline: 1;
+        background: #f2f2f2;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .form .inputID{
+        font-family:"Roboto", sans-serif;
+        text-transform: uppercase;
+        outline: 0;
+        background: #008000;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    .form button:hover, .form button:active{
+        background:white;
+        color:black;
+    }
+    .form .message{
+        margin: 15px 0 0;
+        color: white;
+        font-size:20px;
+    }
+    .form .message a{
+    color: #008000;
+    text-decoration: none;
+    
+    }
